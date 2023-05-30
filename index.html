@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html data-theme="dark" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+    <title>Contador</title>
+</head>
+<body>
+ 
+    <div class="container">
+        <h3>CONTADOR</h3>
+        <p id="numero">0</p>
+        <p id="porcuanto">x 1</p>
+        <div class="cont-botones">
+          <button class="button-aumentar" onclick="incrementarPorCuanto()">x</button>
+          <button class="button-restar" onclick="decrementarPorCuanto()">x</button>
+    </div>
+        <div class="cont-botones" style="margin-bottom: 10px;">
+          <button class="button-aumentar" onclick="aumentarNumero()">Aumentar</button>
+          <button class="button-reiniciar" onclick="reiniciarNumero()">Reiniciar</button>
+          <button class="button-restar" onclick="restarNumero()">Restar</button>
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>    
+</body>
+</html>
